@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book a Trip</title>
+    <link rel="stylesheet" type="text/css" href="./booktrip-styles.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="media-container">
+        <div class="text-overtop">
+            <h1>Desitnation Destiny</h1>
+        </div>
+        <video class="media" autoplay loop muted>
+            <source src="./citynight.mp4" type="video/mp4">
+        </video>
+        
+    </section>
+
+    <div class="header-bar">
+        <h1>Book a Trip</h1>
+    </div>
+    
+    <div>
+    <form action="https://sometravelwebsite.com" method="post">
+        <label for="first-name">First Name:</label><br>
+        <input type="text" id="first-name" name="first_name" placeholder="First Name" required><br><br>
+
+        <label for="last-name">Last Name:</label><br>
+        <input type="text" id="last-name" name="last_name" placeholder="Last Name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+
+        <label for="phone">Phone Number:</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required><br><br>
+    </div>
+
+    <div>
+        <label for="start-date">Start Date:</label><br>
+        <input type="date" id="start-date" name="start_date" required><br><br>
+
+        <label for="end-date">End Date:</label><br>
+        <input type="date" id="end-date" name="end_date" required><br><br>
+    </div>
+    
+    <div>
+        <label for="package">Package:</label><br>
+        <input type="radio" id="basic" name="package" value="basic" required>
+        <label for="basic">Basic</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="radio" id="premium" name="package" value="premium" required>
+        <label for="premium">Premium</label><br><br>
+    
+        <label for="accommodations">Additional Services:</label><br>
+        <input type="checkbox" id="rental-car" name="accommodations" value="rental_car">
+        <label for="rental-car">Rental Car</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" id="hotel" name="accommodations" value="hotel">
+        <label for="hotel">Hotel</label>&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="checkbox" id="other" name="accommodations" value="other">
+        <label for="other">Restaurant Reservations</label>
+        <a href="https://link-to-affiliated-restaurants.com" target="_blank">List of Affiliated Restaurants</a><br><br>
+    
+        <label for="additional-info">Additional Information:</label><br>
+        <textarea id="additional-info" name="additional_info" rows="4" cols="50"></textarea><br><br>
+    </div>
+
+    <footer>
+        <div class="footer-column">
+            <h3>Company</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">How we work</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Contact</h3>
+            <ul>
+                <li><a href="#">Help/FAQ</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Affiliates</a></li>
+                <li><a href="#">Hotel owners</a></li>
+                <li><a href="#">Partners</a></li>
+                <li><a href="#">Advertise with us</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>More</h3>
+            <ul>
+                <li><a href="#">Airline fees</a></li>
+                <li><a href="#">Airlines</a></li>
+                <li><a href="#">Low fare tips</a></li>
+                <li><a href="#">Badges & Certificates</a></li>
+                <li><a href="#">Security</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h3>Get the Destination Destiny app</h3>
+            <ul>
+                <li><a href="#"><img src="apple-appstore-link.png" alt="Apple App Store"></a></li>
+                <li><a href="#"><img src="google-play-link.png" alt="Google Play Store"></a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            <p>©2025 KAYAK</p>
+            <p><a href="#">Privacy</a> | <a href="#">Terms & Conditions</a> | <a href="#">Ad Choices</a></p>
+        </div>
+    </footer>
+    
+    
+
+    </form>
+</body>
+</html>
+

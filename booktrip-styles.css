@@ -1,0 +1,247 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(240, 248, 255, 0.0);
+    background-image: url(./UT_Moab_geo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+}
+
+.text-overtop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    max-width: 80%; 
+    border-radius: 5px; 
+}
+
+h1 {
+    margin: 0; 
+    font-size: 2rem; 
+    background-color: #333;
+    color: #fff; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.header-bar {
+    background-color: #333333; 
+    color: #ffffff; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+.header-bar h1 {
+    margin: 0; 
+    background-color: #333;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.media-container {
+    position: relative;
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.media {
+    width: 100%;
+    height: auto;
+}
+
+.text-overtop {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px 20px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);  
+}
+
+form {
+    background-color: #f0f8ff; 
+    padding: 20px; 
+    border-radius: 5px; 
+    opacity: 0.8;
+}
+
+label {
+    color: #4169e1; 
+    font-weight: bold; 
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    color: #36454f; 
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 3px;
+    width: 100%; 
+}
+
+form > label, form > input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div {
+    background-color: #f8f8f8; 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+
+label {
+    color: #800020be; 
+    font-weight: bold; 
+}
+
+input[type="date"] {
+    color: #36454f; 
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 3px; 
+    width: 100%;
+}
+
+div > label, div > input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+div {
+    background-color: #f0f8ff; 
+    padding: 20px; 
+    border-radius: 5px;
+    opacity: 0.8;
+}
+
+
+label {
+    color: #006400a9; 
+    font-weight: bold; 
+}
+
+input {
+    color: #36454f; 
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    border-radius: 3px; 
+    width: 100%; 
+}
+
+
+a {
+    color: #0064008e; 
+    text-decoration: underline; 
+}
+
+div > label, div > input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background-color: #333333; 
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+    background: none; 
+    border: none; 
+}
+
+.footer-column h3 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    background: none; 
+    border: none; 
+}
+
+.footer-bottom p {
+    margin: 5px 0;
+}
+
+.footer-bottom a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
